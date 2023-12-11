@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Лаба 7(2)/styles/style2.css">
+    <link rel="stylesheet" href="../Лаба 7(2)/styles/style.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito:wght@700&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+    <title>Kembang Form</title>
+</head>
+
+<body>
+    <div class="Wrapper">
+        <div class="container">
+            <header class="Header__Inner">
+                <a href="index.html" class="Logo_Form">
+                    <img src="../Лаба 7(2)/images/Header.svg" alt="">
+                </a>
+                <div class="menu">
+                    <button class="Header__Search"><img src="../Лаба 7(2)/images/Header_search.svg" alt=""></button>
+                    <a href="demo.html" class="Header__Shop"><img src="../Лаба 7(2)/images/Header_shop.svg" alt=""></a>
+                    <a href="#" class="Sign__Up">Sign Up</a>
+                    <button class="Sign__In">Sign In</button>
+                </div>
+            </header>
+            <div class="Form_1">
+                <form name="contact" method="POST" data-netlify="true" class="Form_Body_1">
+                    <fieldset>
+                        <legend class="Form_Tittle_1">Personal information</legend>
+                        <label for="name">Name*:</label>
+                        <input placeholder="Beatuful Nautilus" required type="text" id="name" name="name">
+                        <label for="Birth">Birth*:</label>
+                        <input type="date" required id="Birth" name="date">
+                        <label for="Gender">Your Gender:</label>
+                        <select name="Gender" id="Gender">
+                            <optgroup label="M/F">
+                                <option value="M">Male</option>
+                                <option value="F">Female</option>
+                            </optgroup>
+                        </select>
+                        <label for="Password">Password*:</label>
+                        <input type="password" required id="Password" name="password">
+                        <label for="Free_time_1">Free time from:</label>
+                        <input type="time" id="Free_time_1" name="time">
+                        <label for="Free_time_2">Free time till:</label>
+                        <input type="time" id="Free_time_2" name="time">
+                    </fieldset>
+                    <fieldset>
+                        <legend class="Form_Tittle_1">Contact information</legend>
+                        <label for="E-mail">E-mail:</label>
+                        <input placeholder="iplant@mail.ru" type="email" id="E-mail" name="email">
+                        <label for="Phone">Phone*:</label>
+                        <input placeholder="+795281211" required type="tel" id="Phone" name="tel">
+                    </fieldset>
+                    <div class="Form_Buttons_1">
+                        <button type="submit" class="Form_Button_1">Send</button>
+                        <button type="reset" class="Form_Reset_1" disabled><img src="../Лаба 7(2)/images/reset.svg"
+                                alt="«Reset data in fileds»" class="img-reset"></button>
+                    </div>
+                </form>
+            </div>
+            <div class="Form_2">
+                <form name="psefdo" method="POST" data-netlify="true" class="Form_Body_2">
+                    <dl>
+                        <dt>Псевдоэлемент</dt>
+                        <dd>
+                            Псевдоэлемент в CSS — это ключевое слово, добавляемое к селектору, которое позволяет
+                            стилизовать определённую часть выбранного элемента.
+                            Например, псевдоэлемент ::first-line может быть использован для изменения шрифта первой
+                            строки абзаца.
+                        </dd>
+                        <dt>Псевдокласс</dt>
+                        <dd>
+                            Псевдокласс в CSS — это ключевое слово, добавленное к селектору, которое определяет его
+                            особое состояние.
+                            Например, :hover может быть использован для изменения цвета кнопки при наведении курсора на
+                            неё.
+                        </dd>
+                    </dl>
+                    <p class="color_main">Псевдоклассы</p>
+                    <p class="checkbox1"><input type="checkbox" id="cb1" checked> <label for="cb1">:active</label></p>
+                    <p class="checkbox2"><input type="checkbox" id="cb2" checked> <label for="cb2">:checked</label></p>
+                    <p class="checkbox1"><input type="checkbox" id="cb3" checked> <label for="cb3">:hover</label></p>
+                    <p class="checkbox2"><input type="checkbox" id="cb4" checked> <label for="cb4">:focus</label></p>
+                    <p class="checkbox1"><input type="checkbox" id="cb5"> <label for="cb5">:not()</label></p>
+                    <p class="checkbox2"><input type="checkbox" id="cb6" checked> <label for="cb6">:root</label></p>
+                    <p class="color_main">Псевдоэлементы</p>
+                    <p class="checkbox1"><input type="checkbox" id="cb7" checked> <label for="cb7">::after</label></p>
+                    <p class="checkbox2"><input type="checkbox" id="cb8"> <label for="cb8">::slotted</label></p>
+                    <p class="checkbox1"><input type="checkbox" id="cb9" checked> <label for="cb9">::before</label></p>
+                    <p class="checkbox2"><input type="checkbox" id="cb10" checked> <label
+                            for="cb10">::first-letter</label></p>
+                    <p class="checkbox1"><input type="checkbox" id="cb11"> <label for="cb11">::first-line</label></p>
+                    <p class="checkbox2"><input type="checkbox" id="cb12" checked> <label for="cb12">::selection</label>
+                    </p>
+                </form>
+            </div>
+            <footer class="Footer">
+                <div class="Footer_Content">
+                    <div class="Footer_1">
+                        <p class="Footer_1_1">plantku</p>
+                        <p class="Footer_1_2">Plantku House</p>
+                        <p class="Footer_1_3">Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah
+                            Istimewa Yogyakarta 55282</p>
+                    </div>
+                    <div class="Footer_2">
+                        <p class="Footer_2_1">Perusahaan</p>
+                        <p class="Footer_2_2">Tentang Kami</p>
+                        <p class="Footer_2_3">Hubungi Kami</p>
+                    </div>
+                    <div class="Footer_2">
+                        <p class="Footer_2_1">Produk</p>
+                        <p class="Footer_2_2">Tanaman</p>
+                        <p class="Footer__3">Tanaman Lain</p>
+                    </div>
+                    <div class="Footer_4">
+                        <p class="Footer_4_1">Berlangganan Email Kami</p>
+                        <form action="#" method="post">
+                            <input type="text" name="Email" id="Footer_4_2" placeholder="Masukan Alamat Email">
+                            <button type="submit" class="Footer_4_3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
