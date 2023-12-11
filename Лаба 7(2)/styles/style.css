@@ -1,7 +1,7 @@
 :root {
     --main: #156963;
   }
-  /*FONTS*/
+  
   a {
     color: #2c1500;
     text-decoration: none;
@@ -22,7 +22,7 @@
   h6 {
     margin: 0;
   }
-  /*BODY*/
+ 
   body {
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
@@ -35,7 +35,7 @@
     flex-direction: column;
     height: 100%;
   }
-  /*HEADER*/
+
   header {
     margin: 0 auto;
   }
@@ -83,7 +83,7 @@
     font-family: "Nunito", sans-serif;
     font-size: 14px;
   }
-  /*Body First*/
+  
   .Body_First {
     margin: 0 auto;
     height: 742px;
@@ -121,7 +121,7 @@
     line-height: 32px;
     color: #564433;
   }
-  /*Buttons*/
+  
   .Two_Buttons {
     width: 586px;
     height: 160px;
@@ -176,7 +176,7 @@
     color: #fff;
     margin: 12px 0px 0px 0px;
   }
-  /*Body Second (Catalog 1)*/
+  
   .Body_Second_Catalog_First {
     width: 1168px;
     height: 155px;
@@ -213,7 +213,7 @@
     height: 48px;
     margin: 16px 16px 21px 16px;
   }
-  /*Body Second (Catalog 2)*/
+  
   .Body_Second_Catalog_Second {
     height: 352px;
     width: 1168px;
@@ -280,7 +280,7 @@
     font-weight: 600;
     font-size: 16px;
   }
-  /*Body Third*/
+  
   .Body_Third {
     width: 1165px;
     height: 610px;
@@ -314,7 +314,7 @@
     font-size: 16px;
     line-height: 26px;
   }
-  /*Body_Forth*/
+  
   .Body_Forth {
     width: 1168px;
     height: 360px;
@@ -344,7 +344,7 @@
     line-height: 20px;
     text-align: center;
   }
-  /*Footer*/
+  
   .Footer {
     max-width: 1280px;
     height: 268px;
@@ -431,7 +431,7 @@
     padding: 4px 12px;
     border-radius: 2px;
   }
-  /*Forms*/
+  
   legend {
     background-color: var(--main);
     color: #fff;
@@ -491,6 +491,9 @@
     align-items: flex-end;
     margin: 10px 0px 20px 0px;
   }
+  main {
+    margin-top: 50px;
+  }
   label {
     display: inline-block;
     width: 150px;
@@ -512,7 +515,7 @@
   button {
     margin-left: 0.5em;
   }
-  /*laba 8*/
+  
   
   ::selection {
     color: #fff;
@@ -559,7 +562,7 @@
     background-color: rgb(240, 240, 240);
     box-shadow: 0 2px 4px black;
   }
-  /*Form_2 */
+  
   .Form_2 {
     margin: 0 auto;
   }
@@ -590,7 +593,7 @@
     margin-top: 15px;
   }
   
-  /**/
+  
   input[type="checkbox"]:checked + label {
     text-decoration: line-through;
   }
@@ -610,10 +613,7 @@
     padding: 0;
     width: 13px;
   }
-  /*laba 9*/
-  .laba_9 {
-    margin-top: 50px;
-  }
+
   .ex1 {
     width: 1000px;
     margin: auto;
